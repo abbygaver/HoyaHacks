@@ -1,193 +1,207 @@
-# #23 HackHeads
-#make loops so people learn
-#if time do try catch block for responses
+//#23 HackHeads
+//make loops so people learn
+//if time do try catch block for responses
 print("Go through your day, and see your daily choices impact on the environment");
-choice = input("Do you want to start: yes or no?")
+var choice = input("Do you want to start: yes or no?");
 print();
 
-#morning coffee
-while (choice == "yes"):
-    print("Good morning! You wake up at 7 AM to get ready for class. Hitting the")
-    print("snooze button for the fifth time since 6:30," + " you decide")
+//morning coffee
+while (choice == "yes"){
+    print("Good morning! You wake up at 7 AM to get ready for class. Hitting the");
+    print("snooze button for the fifth time since 6:30," + " you decide");
     print("you could use a cup of coffee. Do you…");
     print("a. Go to Starbucks?");
     print("b. Go to the dining hall");
     print("c. Make your own");
-    response = input("What is your choice?");
-    if (response == "a." or response == "a"):
-        print("You go to starbucks. You order an Iced Caffe Mocha to really")
+    var response = input("What is your choice?");
+    if (response == "a." or response == "a"){
+        print("You go to starbucks. You order an Iced Caffe Mocha to really");
         print("kickstart your day. You’re handed your cup and a straw. Do you…");
         print("a. accept the straw");
         print("b. Whip out your fancy metal straw?");
-        response1 = input("What is your choice?");
-        if (response1 == "a." or "a"):
-            print("Congrats! You killed a turtle! (What are the odds right?")
-            print("According to The Sea Turtle Conservancy, 100 million marine")
-            print("animals die every year from ingesting debris. What’s more,")
+        var response1 = input("What is your choice?");
+        if (response1 == "a." or "a"){
+            print("Congrats! You killed a turtle! (What are the odds right?)");
+            print("According to The Sea Turtle Conservancy, 100 million marine");
+            print("animals die every year from ingesting debris. What’s more,");
             print("over half of the world’s sea turtles have ingested plastic!");
-        elif (response1 == "b." or response1 == "b"):
-            print("Congrats! It may not seem like much, but using a metal straw is")
+        }else if (response1 == "b." or response1 == "b"){
+            print("Congrats! It may not seem like much, but using a metal straw is");
             print("a small step towards living a more sustainable life!");
-    elif (response == "b." or response == "b"):
-        print("You go to the dining hall. After happily wasting a swipe to get in,")
+        }
+    }else if (response == "b." or response == "b"){
+        print("You go to the dining hall. After happily wasting a swipe to get in,");
         print("you head towards the coffee. Do you…");
         print("a. Use a styrofoam cup");
         print("b. Use a reusable cup/mug");
-        response2 = input("What is your choice?");
-        if (response2 == "a." or response == "a"):
-            print("Wow! Here’s a fact to make you rethink your life choices:")
-            print("According to the National Bureau of Standards Center for")
-            print("Fire Research, 57 chemical byproducts are released during the")
-            print("creation of styrofoam, which pollutes the air. These chemicals")
+        var response2 = input("What is your choice?");
+        if (response2 == "a." or response == "a"){
+            print("Wow! Here’s a fact to make you rethink your life choices:");
+            print("According to the National Bureau of Standards Center for");
+            print("Fire Research, 57 chemical byproducts are released during the");
+            print("creation of styrofoam, which pollutes the air. These chemicals");
             print("are shown to have a negative effect on the ozone layer.");
-        elif (response2 == "b."):
-            print("Phew! Good for you! Even better if you brought your own mug too!")
-            print("Protip: If you’d like to bring your own mug, but you don’t have")
-            print("one, or need one for cheap, consignment shops are a great place")
-            print("to find used items for cheap, and is also better for the environment")
+        }else if (response2 == "b."){
+            print("Phew! Good for you! Even better if you brought your own mug too!");
+            print("Protip: If you’d like to bring your own mug, but you don’t have");
+            print("one, or need one for cheap, consignment shops are a great place");
+            print("to find used items for cheap, and is also better for the environment");
             print("as you reuse old products instead of letting them be tossed!");
-    elif (response == "c." or response == "c"):
+    }else if (response == "c." or response == "c"){
         print("You make your own coffee. Do you use…");
         print("a. A coffee filter?");
         print("b. Or a k-cup?");
-        response3 = input("What is your choice?");
-        if (response3 == "a." or response3 == "a"):
-            print("Using a filter can sometimes be problematic, especially if")
-            print("they are bleached with oxygen or chlorine; this, again, deals with")
-            print("the problem of releasing unwanted chemicals into the atmosphere.")
-            print("If you absolutely want to keep using a coffee filter,")
+        var response3 = input("What is your choice?");
+        if (response3 == "a." or response3 == "a"){
+            print("Using a filter can sometimes be problematic, especially if");
+            print("they are bleached with oxygen or chlorine; this, again, deals with");
+            print("the problem of releasing unwanted chemicals into the atmosphere.");
+            print("If you absolutely want to keep using a coffee filter,");
             print("you can always invest in a reusable one!");
-        elif (response3 == "b." or response3 == "b"):
-            print("Yikes. I get it; fast, easy coffee is great.")
-            print("K-cups, on the other hand, are not! K-cups, that aren’t recycled,")
+        }else if (response3 == "b." or response3 == "b"){
+            print("Yikes. I get it; fast, easy coffee is great.");
+            print("K-cups, on the other hand, are not! K-cups, that aren’t recycled,");
             print("will take thousands of years to decompose in a landfill.")
-            print("Thousands of years? You won’t be here by then,")
+            print("Thousands of years? You won’t be here by then,");
             print("but your great-great-great-great…etc. Grandchildren will.");
+        }
+     }
+  }
     print()
     print("Do you want to go back and choose another option ")
     print("This is allows you to explore different actions")
     choice = input("yes or no?")
 print();
 
-#Way to class
-choice2 = True
-while (choice2 == True):
-    print("Time for class! You were so caught up enjoying your coffee that you")
-    print("seem to be running behind! You now have to absolutely book it to class.")
-    print("Do you… (For the sake of this program, let’s say your")
+//Way to class
+var choice2 = True;
+while (choice2 == True){
+    print("Time for class! You were so caught up enjoying your coffee that you");
+    print("seem to be running behind! You now have to absolutely book it to class.");
+    print("Do you… (For the sake of this program, let’s say your");
     print("college campus is a relatively medium-sized)");
     print("a. Drive?");
     print("b. Take the bus?");
     print("c. Ride your bike?");
     print("d. Walk?");
-    response4 = input("What is your choice?");
-    if (response4 == "a." or response4 == "a"):
+    var response4 = input("What is your choice?");
+    if (response4 == "a." or response4 == "a"){
         print("You drove your car to class!");
-        print("Oh boy, that’s a doozy. Look, cars are great. Karl Benz, Henry Ford,")
-        print("they are absolute geniuses, I know. However, convenience won’t matter")
-        print("when the earth decays. In fact, car pollutants play a big part in global")
-        print("warming, and have immediate and long-term effects on the environment.")
-        print("If you’re adamant about driving, though, perhaps consider looking at")
+        print("Oh boy, that’s a doozy. Look, cars are great. Karl Benz, Henry Ford,");
+        print("they are absolute geniuses, I know. However, convenience won’t matter");
+        print("when the earth decays. In fact, car pollutants play a big part in global");
+        print("warming, and have immediate and long-term effects on the environment.");
+        print("If you’re adamant about driving, though, perhaps consider looking at");
         print("an electric car in the future! Until then, carpooling isn’t a horrible idea!");
-    if(response4 == "b." or response4 == "b"):
-        print("Buses aren’t great for the environment. The pollutants from buses")
-        print("play a role in global warming, and have immediate and long-term")
-        print("effects on the environment. Nevertheless, it’s better than driving")
-        print("your car on your own, in a sense. By taking the bus,")
-        print("you are carpooling and, if you’re the only one on the bus,")
+    }
+    if(response4 == "b." or response4 == "b"){
+        print("Buses aren’t great for the environment. The pollutants from buses");
+        print("play a role in global warming, and have immediate and long-term");
+        print("effects on the environment. Nevertheless, it’s better than driving");
+        print("your car on your own, in a sense. By taking the bus,");
+        print("you are carpooling and, if you’re the only one on the bus,");
         print("that’s at least one less car off the roads.");
-    if(response4 == "c." or response4 == "c"):
-        print("Look at you! Riding your bike is great. No vehicle emissions,")
-        print("and you’re getting your cardio in! Keep this up, and not only")
+    }
+    if(response4 == "c." or response4 == "c"){
+        print("Look at you! Riding your bike is great. No vehicle emissions,");
+        print("and you’re getting your cardio in! Keep this up, and not only");
         print("will Mother Nature be thankful, but your calves will be ripped.");
-    if(response4 == "d." or response4 == "d"):
+    }
+    if(response4 == "d." or response4 == "d"){
         print("You walked!");
-        print("Wow! Kudos to you! Walking is great, since there are no")
+        print("Wow! Kudos to you! Walking is great, since there are no");
         print("vehicle emissions involved and you’re getting your steps in! Go you!");
+    }
     print();
-    print("Do you want to redo this part?")
-    choiceTwo = input("yes or no?")
-    if (choiceTwo == "no"):
-        choice2 = False
-print()  #where I am 
+    print("Do you want to redo this part?");
+    var choiceTwo = input("yes or no?");
+    if (choiceTwo == "no"){
+        choice2 = False;
+    }
+}
+print();  #where I am 
     
 
-#after class activity
-choice3 = True
-while( choice3 == True):
-    print("Classes are over for the day, and you’re feeling a bit tired.")
-    print("You decide it’s time for a break before you get to the studying grind.")
+//after class activity
+var choice3 = True;
+while( choice3 == True){
+    print("Classes are over for the day, and you’re feeling a bit tired.");
+    print("You decide it’s time for a break before you get to the studying grind.");
     print("What do you do?");
     print("a. Watch Netflix");
     print("b. Practice a hobby (draw, read, exercise, etc.)");
     print("c. Go to the library and read up on Climate Change");
-    response5 = input("What is your choice?");
-    if (response5 == "a." or response5 == "a"):
+    var response5 = input("What is your choice?");
+    if (response5 == "a." or response5 == "a"){
         print("You decide to watch Netflix! What do you want to watch?");
         print("a. Friends");
         print("b. Victorius");
         print("c. The Office");
-        response6 = input("What is your choice?");
-        if (response6 == "a." or response6 == "a"):
-            print("Wow great! Except, here’s the thing, the internet has an affect on our climate,")
-            print("so your choice of show doesn’t really matter in the end! According to the")
-            print("New Republic website, streaming one hour of Netflix for a week requires more")
-            print("electricity for a year than that of the yearly output of two ")
-            print("brand-spanking-new refrigerators, which leads to greater carbon emissions.")
+        var response6 = input("What is your choice?");
+        if (response6 == "a." or response6 == "a"){
+            print("Wow great! Except, here’s the thing, the internet has an affect on our climate,");
+            print("so your choice of show doesn’t really matter in the end! According to the");
+            print("New Republic website, streaming one hour of Netflix for a week requires more");
+            print("electricity for a year than that of the yearly output of two ");
+            print("brand-spanking-new refrigerators, which leads to greater carbon emissions.");
             print("Think of that next time you stream.");
-        elif (response6 == "b." or response6 == "b"):
-            print("Wow great! Except, here’s the thing, the internet has an affect on our climate,")
-            print("so your choice of show doesn’t really matter in the end! According to the")
-            print("New Republic website, streaming one hour of Netflix for a week requires more")
-            print("electricity for a year than that of the yearly output of two ")
-            print("brand-spanking-new refrigerators, which leads to greater carbon emissions.")
+        }else if (response6 == "b." or response6 == "b"){
+            print("Wow great! Except, here’s the thing, the internet has an affect on our climate,");
+            print("so your choice of show doesn’t really matter in the end! According to the");
+            print("New Republic website, streaming one hour of Netflix for a week requires more");
+            print("electricity for a year than that of the yearly output of two ");
+            print("brand-spanking-new refrigerators, which leads to greater carbon emissions.");
             print("Think of that next time you stream.");
-        elif (response6 == "c." or response6 == "c"):
-            print("Wow great! Except, here’s the thing, the internet has an affect on our climate,")
-            print("so your choice of show doesn’t really matter in the end! According to the")
-            print("New Republic website, streaming one hour of Netflix for a week requires more")
-            print("electricity for a year than that of the yearly output of two ")
-            print("brand-spanking-new refrigerators, which leads to greater carbon emissions.")
+        }else if (response6 == "c." or response6 == "c"){
+            print("Wow great! Except, here’s the thing, the internet has an affect on our climate,");
+            print("so your choice of show doesn’t really matter in the end! According to the");
+            print("New Republic website, streaming one hour of Netflix for a week requires more");
+            print("electricity for a year than that of the yearly output of two ");
+            print("brand-spanking-new refrigerators, which leads to greater carbon emissions.");
             print("Think of that next time you stream.");
-    elif (response5 == "b." or response5 == "b"):
+        }
+    }else if (response5 == "b." or response5 == "b"){
         print("You decide to practice a hobby! Do you...");
         print("a. Draw?");
         print("b. Read?");
         print("c. Exercise");
         print("d. Other?");
-        response7 = input("What is your choice?");
-        if (response7 == "a." or response7 == "a"):
-            print("Great! Drawing is a wonderful hobby and shows you have quite the creativity!")
-            print("And, unless you’re scrolling through Pinterest for references all the time,")
-            print("you’re impact through electricity on climate change is minimal!")
-            print("If you’re looking to really up your sustainability game,")
+        var response7 = input("What is your choice?");
+        if (response7 == "a." or response7 == "a"){
+            print("Great! Drawing is a wonderful hobby and shows you have quite the creativity!");
+            print("And, unless you’re scrolling through Pinterest for references all the time,");
+            print("you’re impact through electricity on climate change is minimal!");
+            print("If you’re looking to really up your sustainability game,");
             print("why not try finding sketchbooks that are made from recycled materials?");
-        elif (response7 == "b." or response7 == "b"):
-            print("Whether you’re reading fantasy or archived newspapers,")
-            print("reading is great for the brain! Worried about sustainability?")
-            print("Instead of buying books from the Barnes and Noble,")
+        }else if (response7 == "b." or response7 == "b"){
+            print("Whether you’re reading fantasy or archived newspapers,");
+            print("reading is great for the brain! Worried about sustainability?");
+            print("Instead of buying books from the Barnes and Noble,");
             print("why not try a consignment shop or the library? Let’s reuse our resources!");
-        elif (response7 == "c." or response7 == "c"):
-            print("Yes, get that grind! Not only will you be avoiding any activities")
+        }else if (response7 == "c." or response7 == "c"){
+            print("Yes, get that grind! Not only will you be avoiding any activities");
             print("that are bad for the environment, you are also getting fit!");
-        elif (response7 == "d." or response7 == "d"):
+        }else if (response7 == "d." or response7 == "d"){
             print("There are so many hobbies to pursue, and it doesn’t hurt to");
-            print("try something environmentally friendly, or see how you can")
-            print("make your hobbies more sustainable! Try recycled products,")
+            print("try something environmentally friendly, or see how you can");
+            print("make your hobbies more sustainable! Try recycled products,");
             print("reuse old products, or maybe trying picking up litter as a hobby!");
-    elif (response5 == "c." or response5 == "c"):
+    }else if (response5 == "c." or response5 == "c"){
         print("You decide to read up on climate change at the library!");
-        print("Wow! We’re proud of you! Just remember to check your facts")
-        print("and make sure you aren’t jumping the gun on ideas that")
+        print("Wow! We’re proud of you! Just remember to check your facts");
+        print("and make sure you aren’t jumping the gun on ideas that");
         print("seem a little wacky! Keep up the good work!");
+    }
     print();
-    print("Do you want to redo this part?")
-    choiceThree = input("yes or no?")
-    if (choiceThree == "no"):
-        choice3 = False
+    print("Do you want to redo this part?");
+    var choiceThree = input("yes or no?");
+    if (choiceThree == "no"){
+        choice3 = False;
+    }
+}
 print()
 
-#Dinner
+//Dinner
 choice4 = True
 while(choice4 == True):
     print("So after subsequently forgetting to study, and hence procrastinating,")
@@ -230,7 +244,7 @@ while(choice4 == True):
         choice4 = False
 print()
 
-#throw away food
+//throw away food
 choice5 = True
 while (choice5 == True):
     print("After eating ypur meal, you...");
@@ -266,7 +280,7 @@ while (choice5 == True):
         choice5 = False
 print()
 
-#sleepy time
+//sleepy time
 choice6 = True
 while(choice6 == True):
     print("After a filling dinner with strong portion control,")
